@@ -1,38 +1,43 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
-  <body>
-    <header>
-    </header>
+header {
+  height: 65px;
+  width: 100%;
+  background-color: gray;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 
-    <div class="top-wrapper">
+.header-left {
+  float: left;
+}
 
-    </div>
+.header-icon {
+  font-size: 2.5em;
+  width: 80px;
+  margin-top: 13px;
+}
 
-    <div class="professional-wrapper">
+.header-right{
+  float: left;
+  margin-left: 100px;
+}
 
-    </div>
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
 
-    <div class="portfolio-wrapper">
-
-    </div>
-
-    <div class="experience-wrapper">
-
-    </div>
-
-    <div class="contact-wrapper">
-
-    </div>
-
-    <footer>
-    </footer>
-  </body>
-
-
-</html>
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
