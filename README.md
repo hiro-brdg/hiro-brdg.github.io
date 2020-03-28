@@ -1,10 +1,6 @@
 # mysite
 personal website for training<br>
-<file:///Users/hiroaki/mysite/index.html#>
 
- [Google][a]
+mysite: [Hiroaki Kato][mysite]
  
- [Yahoo][1]
- 
- [a]:http://google.com "Title"
- [1]:http://www.yahoo.co.jp
+ [mysite]:file:///Users/hiroaki/mysite/index.html#
