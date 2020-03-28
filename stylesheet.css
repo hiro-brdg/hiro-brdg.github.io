@@ -22,11 +22,16 @@ header {
   font-size: 2.5em;
   width: 80px;
   margin-top: 13px;
+  color: lime;
 }
 
 .header-right{
   float: left;
   margin-left: 100px;
+}
+
+.header-right .home{
+  color: lime;
 }
 
 .header-right a {
