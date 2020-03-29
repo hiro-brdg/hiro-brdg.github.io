@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -5,13 +13,16 @@
   margin: 0 auto;
 }
 
+/* header */
 header {
   height: 65px;
   width: 100%;
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: rgba(32, 48, 60, 0.75);
   position :fixed;
   top: 0;
   z-index: 10;
+  /* opacity: 80%; */
 }
 
 .header-left {
@@ -45,4 +56,26 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* top-wrapper */
+.top-wrapper {
+  height: auto;
+  padding: 180px 0 100px 0;
+  background-image: url(./images/top-wrapper.jpg);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.container h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 100%;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  letter-spacing: 18px;
+}
+
+.container .color_0{
+  color: lime;
 }
